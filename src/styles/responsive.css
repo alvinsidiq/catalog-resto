@@ -1,0 +1,144 @@
+@media screen and (max-width: 650px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .header_title,
+  .nav-list {
+    padding: 10px;
+  }
+
+  .hero_title,
+  .hero_tagline {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .nav-list {
+    z-index: 10;
+    background-color: black;
+    color: rgb(254, 251, 246);
+    padding: 0;
+    width: 200px;
+    position: absolute;
+    top: 169px;
+    left: 0;
+
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+  }
+
+  .open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition: transform 0.3s ease;
+  }
+
+  .nav-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .nav-list ul li a {
+    color: rgb(254, 251, 246);
+  }
+
+  .nav_item {
+    display: list-item;
+    border-bottom: 1px solid rgb(254, 251, 246) e;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .posts {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .header__menu {
+    display: block; /* Menampilkan hamburger menu */
+  }
+}
+
+/* Media query untuk layar dengan lebar minimal 760px */
+@media screen and (min-width: 760px) {
+  .header__menu {
+    display: none; /* Menyembunyikan hamburger menu */
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+} 
+
+@media screen and (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+  }
+
+  .hero {
+    min-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .jumbotron {
+    height: 200px;
+  }
+
+  .slide h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .slide p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .grid-card {
+    width: 70%;
+  }
+
+  .grid-card img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .grid-card img {
+    width: 70%;
+  }
+}
+@media (max-width: 760px) {
+  h1 {
+    font-size: 24px; 
+     text-align: center; 
+  }
+  
+   p {
+    font-size: 16px; 
+     text-align: center; 
+  }
+}

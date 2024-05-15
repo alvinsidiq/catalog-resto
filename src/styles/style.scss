@@ -1,0 +1,94 @@
+$primary-color: rgb(71, 147, 175);
+$body-color: rgb(240, 179, 95);
+$red-color: rgb(225, 152, 152);
+$white-color: rgb(254, 251, 246);
+$conten-color: rgb(63, 29, 56);
+$blue-color: rgb(71, 147, 175);
+$review-color: rgb(221, 87, 70);
+
+body {
+  background-color: $primary-color;
+  color: $body-color;
+}
+
+.header_title {
+  color: $body-color;
+}
+.header__menu {
+  background-color: $red-color;
+}
+
+.nav-list ul li a {
+  color: $white-color;
+}
+
+.nav-list ul li a:hover {
+  color: $body-color;
+}
+
+.post-item {
+  background-color: $white-color;
+}
+
+.item_content {
+  color: $conten-color;
+}
+.item_title {
+  color: $conten-color;
+}
+
+.post-item_title a {
+  color: $conten-color;
+}
+
+.post-item_title a:hover {
+  color: $conten-color;
+}
+footer {
+  background-color: $red-color;
+}
+
+footer p {
+  color: $conten-color;
+}
+.resto-info_description {
+  color: $conten-color;
+}
+
+/* skip-link */
+.skip-link {
+  background-color: $red-color;
+}
+.container {
+  color: $conten-color;
+  box-shadow: 0 4px 8px 0 $conten-color;
+  background-color: $white-color;
+}
+
+.menu_title {
+  border-bottom: 1px solid $review-color;
+}
+.menu_category {
+  background-color: $review-color;
+  border-bottom: 1px solid $conten-color;
+}
+
+.reviews_title {
+  border-bottom: 2px solid$review-color;
+
+  color: $blue-color;
+}
+.resto_reviews {
+  box-shadow: 0 4px 8px 0$review-color;
+
+  background-color: $review-color;
+  color: $body-color;
+}
+
+.item_description {
+  color: $conten-color;
+}
+
+resto-info_address {
+  color: $conten-color;
+}
